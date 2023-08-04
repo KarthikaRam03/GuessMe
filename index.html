@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Start Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="welcome">Welcome to the Game</h1>
+  <div class="container">
+    <button id="startButton">Start Game</button>
+    <div id="game-container">
+      <audio
+      id="background-music"
+      src="./assets/backgdmusic.mp3"
+      loop
+      ></audio>
+    </div>
+    
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close" id="closeBtn">&times;</span>
+      <form action="newindex.html" method = "get">
+      <h2>Enter Your Name</h2>
+      <input type="text" id="nameInput" placeholder="Your Name"><br><br>
+     <center><button id="submitBtn">Submit</button></center>
+    </div>
+  </div>
+</form>
+  <script src="script.js"></script>
+</body>
+</html>
+
